@@ -43,5 +43,20 @@ https://www.pythonforbeginners.com/dictionary/python-split
 Cualquier duda con el método split pueden consultarla por el campus
 '''
 
+from cmath import pi
+
+
 print('Jugando con texto')
 # Empezar aquí la resolución del ejercicio
+
+print("ingrese su nombre/s completo del primer Padre")
+padre_1 = str(input()) 
+print("ingrese su nombre/s completo del segundo Padre")
+padre_2 = str(input()) 
+print("ingrese el nombre completo de su hijo/a") 
+nombre_hijo = str(input())  
+print("ingresen los  apellido/s de los 2 padres") 
+los_2_apellidos =  str(input()) +  str(input())  
+apellidos_dos_padres = los_2_apellidos.split(' ' ' ')
+print("el nombre completo del hijo/a es:" , nombre_hijo, "y su apellido/s es: " , apellidos_dos_padres ) 
+
