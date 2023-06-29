@@ -31,23 +31,26 @@ E) Exponente/Potencia
 
 print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
-
-print('Ingrese por consola el primer número :')
-numero_1 = float(input())
-print('Ingrese por consola el segundo número :')
-numero_2 = float(input())
-
-suma = numero_1 + numero_2
-print("el resultado de sumar", numero_1 , "y" , numero_2, "es:" , suma)
-
+print("Ingrese el primer numero de la operacion")
+numero_1 = int(input())
+print("Ingrese el segundo numero de la operacion")
+numero_2 = int(input())
+#suma
+suma_1 = numero_1 + numero_2
+print("La suma entre", numero_1 , "y" , numero_2 , "es:" , suma_1)
+print("")
+#resta
 resta = numero_1 - numero_2
-print("el resultado de  restar", numero_1 , "y" , numero_2, "es:" , resta) 
-
-division = numero_1 / numero_2
-print("el resultado de dividir", numero_1 , "y", numero_2 , "es:" , division ) 
-
+print("La resta entre", numero_1 , "y" , numero_2 , "es:" , resta)
+print("")
+#multiplicacion
 multiplicacion = numero_1 * numero_2
-print("el resultado de  multiplicar", numero_1 ,"y" , numero_2 , "es:" , multiplicacion)
-
+print("La multiplicacion entre", numero_1 , "y" , numero_2 , "es:" , multiplicacion)
+print("")
+#division
+division = numero_1 / numero_2
+print("La division entre", numero_1 , "y" , numero_2 , "es:" , division)
+print("")
+#potencia
 potencia = numero_1 ** numero_2
-print("el resultado de la potencia es" , potencia)
+print("La potencia entre", numero_1 , "y" , numero_2 , "es:" , potencia)
