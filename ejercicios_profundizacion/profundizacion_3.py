@@ -38,14 +38,11 @@ Cualquier duda con estos métodos pueden consultarla por el campus
 
 print('Ahora si! buena suerte')
 # Empezar aquí la resolución del ejercicio
-
-print("ingrese su nombre/s completo") 
-nombre_completo = str.lower(input()) 
-print("su nombre completo es:" , nombre_completo)
-print("por favor vuelva a ingresar su nombre/s completo")
-nombre_completo = str.upper(input())
-print("su nombre completo es:" , nombre_completo) 
-print("ingrese su nombre/s completo por ultima vez por favor")
-nombre_completo = str.capitalize(input()) 
-print("su nombre completo es:" , nombre_completo)
-
+print("Introduzca su nombre completo:")
+nombre_completo = str(input())
+print("")
+print(nombre_completo.lower())
+print("")
+print(nombre_completo.upper())
+print("")
+print(nombre_completo.capitalize())
