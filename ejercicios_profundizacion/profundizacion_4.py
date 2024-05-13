@@ -53,4 +53,5 @@ hijo = str(input("Ingrese el nombre del hijo/a: "))
 nombre_padre_1 , apellido_padre_1 = padre_1.split(" ")
 Nombre_Padre_2 , apellido_padre_2 = padre_2.split(" ")
 # Displayado
-print("Nombre completo del hijo/a: ", hijo , apellido_padre_1 , apellido_padre_2)
+print(f'''Nombre completo del hijo/a: {hijo} 
+         {apellido_padre_1} {apellido_padre_2}''')  

@@ -46,9 +46,10 @@ print("Ingrese su edad:")
 edad = int(input())
 print("Ingrese su altura:")
 altura = float(input())
-print("Nombre y apellido:" , nombre_completo , "DNI:" , numero_dni)
+print(f"Nombre y apellido:  {nombre_completo}  DNI:  {numero_dni}")
 print("")
-print("Nombre y apellido:" , nombre_completo , "Edad:" , edad , "Altura" , altura)
+print(f'''Nombre y apellido: {nombre_completo}  Edad: {edad} 
+ Altura {altura}''')
 
 
 

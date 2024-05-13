@@ -33,8 +33,10 @@ print('¡Nuestra primera calculadora!')
 # Empezar aquí la resolución del ejercicio
 
 # Ingreso
-numero_1 = float(input('Ingrese por consola el primer número real a operar:'))
-numero_2 = float(input('Ingrese por consola el segundo número real a operar:'))
+numero_1 = float(input('Ingrese por consola el primer número \
+real a operar: '))
+numero_2 = float(input('Ingrese por consola el segundo número \
+real a operar: '))
 # Operaciones 
 Suma = numero_1 + numero_2
 Resta = numero_1 - numero_2
@@ -42,8 +44,10 @@ Division = numero_1 / numero_2
 Multiplicacion = numero_1 * numero_2
 Potenciacion = numero_1 ** numero_2
 # Displayado
-print("El resultado de sumar ", numero_1 ," y ", numero_2, " es ", Suma)
-print("El resultado de restar ", numero_1 ," y ", numero_2, " es ", Resta)
-print("El resultado de dividir ", numero_1 ," y ", numero_2, " es ", Division)
-print("El resultado de multiplicar ", numero_1 ," y ", numero_2, " es ", Multiplicacion)
-print("El resultado de potenciar ", numero_1 ," a la ", numero_2, " es ", Potenciacion)
+print(f"El resultado de sumar  {numero_1}  y {numero_2}  es {Suma}")
+print(f"El resultado de restar {numero_1} y  {numero_2} es  {Resta}")
+print(f"El resultado de dividir  {numero_1} y  {numero_2} es  {Division}")
+print(f"El resultado de multiplicar  {numero_1} y  {numero_2} es \
+       {Multiplicacion}")
+print(f"El resultado de la potencia de   {numero_1} y  {numero_2} es \
+       {Potenciacion}")
