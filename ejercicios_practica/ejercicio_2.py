@@ -21,21 +21,25 @@ numero_2 = int(input())
 # print(....)
 print("los dos numeros ingresados son:", numero_1, "y" , numero_2)
 
-# Alumno: Calcule la suma, resta, división y multiplicación de los números ingresados
+# Alumno: Calcule la suma, resta, división y multiplicación de los 
+# Números ingresados
 # numero_1, numero_2
-# Imprima en pantalla todos los resultados con el siguiente formato de ejemplo:
+# Imprima en pantalla todos los resultados con el siguiente formato
+# De ejemplo:
 # El resultado de sumar 4 y 2 es 6
 # NOTA: No coloque usted los nùmeros y resultados, use las variables
 
 # Suma
 suma = numero_1 + numero_2
-print("el resultado de sumar", numero_1 , "y" , numero_2, "es:" , suma)
+print(f"el resultado de sumar {numero_1} y  {numero_2}  es:  {suma}")
 # Resta
 resta = numero_1 - numero_2
-print("el resultado de  restar", numero_1 , "y" , numero_2, "es:" , resta)
+print(f"el resultado de  restar {numero_1}  y {numero_2} es: {resta}")
 # División
 division = numero_1 / numero_2
-print("el resultado de dividir", numero_1 , "y", numero_2 , "es:" , division ) 
+print(f"el resultado de dividir {numero_1} y {numero_2} es: {division}") 
 # Multiplicación
 multiplicacion = numero_1 * numero_2
-print("el resultado de  multiplicar", numero_1 ,"y" , numero_2 , "es:" , multiplicacion)
+print(f'''el resultado de  multiplicar {numero_1} y { numero_2 } es:
+        {multiplicacion}''')
+    

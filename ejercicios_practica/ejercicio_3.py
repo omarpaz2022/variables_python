@@ -24,9 +24,9 @@ apellido = str(input())
 
 # Imprimir la cantidad de letras que posee su nombre completo
 # cantidad_letras = len(....)
-print("mi nombre completo es:" , nombre , apellido)
+print(f"mi nombre completo es: {nombre} {apellido}")
 nombre_completo = nombre + apellido
 cantidad_letras = len(nombre_completo)
-print("mi nombre completo tiene:" ,cantidad_letras , "letras")
+print(f"mi nombre completo tiene: {cantidad_letras}  letras")
 
 
