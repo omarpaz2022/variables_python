@@ -47,7 +47,7 @@ Potenciacion = numero_1 ** numero_2
 print(f"El resultado de sumar  {numero_1}  y {numero_2}  es {Suma}")
 print(f"El resultado de restar {numero_1} y  {numero_2} es  {Resta}")
 print(f"El resultado de dividir  {numero_1} y  {numero_2} es  {Division}")
-print(f"El resultado de multiplicar  {numero_1} y  {numero_2} es \
-       {Multiplicacion}")
-print(f"El resultado de la potencia de   {numero_1} y  {numero_2} es \
-       {Potenciacion}")
+print(f"""El resultado de multiplicar  {numero_1} y  {numero_2} es 
+       {Multiplicacion}""")
+print(f"""El resultado de la potencia de   {numero_1} y  {numero_2} es 
+       {Potenciacion}""")
