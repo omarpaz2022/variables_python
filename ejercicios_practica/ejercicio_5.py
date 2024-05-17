@@ -21,4 +21,5 @@ palabra_2 = str(input())
 # Formar una nueva palabra con los recortes solicitados
 # Imprima en pantalla los resultados
 combinacion_de_palabras = palabra_1[0:3] + palabra_2[0:2]
-print(f"la combinacion de palabras dió como resultado: {combinacion_de_palabras}")
+print(f"""la combinacion de palabras dió como resultado:
+       {combinacion_de_palabras}""")
